@@ -19,7 +19,7 @@ public class PatientService {
 
        Patient p1= patientRepository.findById(id).orElseThrow();
        Patient p2= patientRepository.findById(id).orElseThrow();
-       p1.setName("DP");
+       p1.setName("A0");
        return p1;
     }
 }

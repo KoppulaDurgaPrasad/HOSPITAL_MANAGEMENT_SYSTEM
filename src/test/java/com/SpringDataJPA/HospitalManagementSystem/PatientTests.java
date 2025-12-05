@@ -39,9 +39,9 @@ public class PatientTests {
     public void testTransactionMethods()
     {
 //        Patient patient = patientService.getPatientById(1L);
-       // Patient patient = patientRepository.findByName("Durga");
-        //List<Patient> patientList = patientRepository.findByBirthDateOrMail(LocalDate.of(2006,02,12),"komal@gmail.com");
-    //    List<Patient> patientList = patientRepository.findByNameContaining("Ba");
+       // Patient patient = patientRepository.findByName("A2");
+        //List<Patient> patientList = patientRepository.findByBirthDateOrMail(LocalDate.of(2006,02,12),"A1@gmail.com");
+    //    List<Patient> patientList = patientRepository.findByNameContaining("A");
        // List<Patient> patientList = patientRepository.findByBloodGroup(bloodGroupType.B_POSITIVE);
 
 //      List<Object[]> bloodGroupList =patientRepository.countEachBloodGroupType();
@@ -52,7 +52,7 @@ public class PatientTests {
 //        for(Patient patient:patientList)
 //            System.out.println(patient);
 
-//        int rowsUpdated = patientRepository.updateNameWithId("Ram Komal", 1L);
+//        int rowsUpdated = patientRepository.updateNameWithId("A1", 1L);
 //        System.out.println(rowsUpdated);
 
 //        List<BloodGroupCountResponseEntity> bloodGroupList =patientRepository.countEachBloodGroupType();
